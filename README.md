@@ -5,7 +5,7 @@ Il programma permette di ottenere una programmazione degli orari delle lezioni v
 ## Utilizzo
 Per utilizzare il software è necessario avere installato nel proprio dispositivo [MiniZinc](https://www.minizinc.org/doc-2.5.3/en/installation.html).
 
-L'eseguibile [schedule.mnz](bin/schedule.mnz) implementa il modello MiniZinc del problema e si aspetta di ricevere i parametri da un _datafile_. Il repository contiene due datafile di esempio ([ingegneria.dnz](bin/ingegneria.mnz) e [umanistica.mnz](bin/umanistica.dnz)), ma può essere sottomesso un problema personalizzato definendo i seguenti parametri nel file .dnz:
+L'eseguibile [schedule.mzn](bin/schedule.mzn) implementa il modello MiniZinc del problema e si aspetta di ricevere i parametri da un _datafile_. Il repository contiene due datafile di esempio ([ingegneria.dzn](bin/ingegneria.dzn) e [umanistica.dzn](bin/umanistica.dzn)), ma può essere sottomesso un problema personalizzato definendo i seguenti parametri nel file .dzn:
  * **daily_hours:** rappresenta il numero di ore in cui ogni aula è disponibile giornalmente;
  * **days:** i giorni della settimana in cui le aule sono aperte;
  * **rooms:** il numero totale di aule a disposizione;
