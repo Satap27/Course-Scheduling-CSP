@@ -1,0 +1,29 @@
+daily_hours = 9;
+days = 5;
+rooms = 2;
+courses = {Informatica, Automazione, Telecomunicazioni};
+teachings = {
+  Intelligenza_Artificiale, Statistica, Matematica_Discreta, Ingegneria_del_Software, Basi_di_dati, 
+  Sistemi_di_Controllo, Elettronica_Applicata, Meccanica_Razionale, Fondamenti_di_Telecomunicazioni, Ricerca_Operativa, 
+  Elaborazione_dei_Segnali, Antenne_e_Propagazione, Applicazioni_di_Matematica, Elettrotecnica, Metodi_Matematici};
+professors = 6;
+H = 5;
+t1 = 2;
+t2 = 3;
+
+sequential = true;
+
+course = array1d(teachings,
+  [1,1,1,1,1,
+  2,2,2,2,2,
+  3,3,3,3,3]);
+
+teaching_hours = array1d(teachings,
+  [5,5,5,6,6,
+  5,5,4,6,5,
+  6,6,5,5,5]);
+
+professor = array1d(teachings,
+  [1,2,3,4,5,
+  1,2,3,6,5,
+  6,5,6,1,4]);

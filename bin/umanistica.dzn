@@ -1,0 +1,58 @@
+daily_hours = 9;
+days = 5;
+rooms = 8;
+courses = {Lettere_Antiche, Archeologia, Discipline_delle_Arti, Filologia, Filosofia, PROGEAS, Scienze_Archivistiche, Scienze_dell_Educazione, Storia, Lingue};
+teachings = {
+  Letteratura_Italiana, Linguistica_Generale, Greco, Latino, Storia_dell_Arte, 
+  Preistoria_del_Mediterraneo, Urbanistica_Romana, Storia_e_Archeologia, Archeologia_Feudale, Papirologia,
+  Drammaturgia, Estetica, Etnomusicologia, Storia_del_Teatro, Storia_della_Musica, Storia_Moderna,
+  Calcolabilita_e_Logica, Letteratura_Teatrale, Lingue_Culture_Identita, Sociolinguistica_e_Dialettologia,
+  Filosofia_Estetica, Filosofia_Politica, Logica, Storia_dell_Estetica, Filosofia_Teoretica,
+  Linguaggi_del_Cinema, Management_delle_Imprese, Marketing_delle_Imprese, Storia_del_Cinema,
+  Archivistica_Informatica, Archivistica_Privata, Bibliologia,
+  Pediatria, Ricerca_Educativa, Pedagogia_Generale, Psicologia_dello_Sviluppo, Pedagogia_dell_Infanzia, Sociologia,
+  Storia_Anatolica, Storia_Greca, Storia_Contemporanea, Paleografia, Storia_della_Mesopotamia, Storia_dell_Egitto,
+  Arabo, Ebraico, Francese, Giapponese, Spagnolo, Tedesco
+};
+professors = 25;
+H = 5;
+t1 = 2;
+t2 = 3;
+
+sequential = false;
+
+course = array1d(teachings,
+  [1,1,1,1,1,
+  2,2,2,2,2,
+  3,3,3,3,3,3,
+  4,4,4,4,
+  5,5,5,5,5,
+  6,6,6,6,
+  7,7,7,
+  8,8,8,8,8,8,
+  9,9,9,9,9,9,
+  10,10,10,10,10,10]);
+
+teaching_hours = array1d(teachings,
+  [5,5,5,5,5,
+  5,5,5,5,5,
+  5,5,5,5,5,5,
+  5,5,5,5,
+  5,5,5,5,5,
+  5,5,5,5,
+  5,5,5,
+  5,5,5,5,5,5,
+  5,5,5,5,5,5,
+  5,5,5,5,5,5]);
+
+professor = array1d(teachings,
+  [1,2,3,4,5,
+  6,7,8,9,10,
+  11,12,13,14,15,1,
+  2,3,4,5,
+  6,7,8,9,10,
+  11,12,13,14,
+  15,16,17,
+  18,19,20,16,17,18,
+  19,20,21,22,23,24,
+  25,21,22,23,24,25]);
